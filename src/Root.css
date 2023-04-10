@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Red+Hat+Text:wght@400;500;600;700&family=Sen:wght@400;700&family=Source+Sans+Pro:wght@600;900&family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Red+Hat+Text:wght@400;500;600;700&family=Sen:wght@400;700&family=Source+Sans+Pro:wght@600;900&family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&family=Red+Hat+Text:wght@400;500;600;700&family=Sen:wght@400;700&family=Source+Sans+Pro:wght@600;900&family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&family=Sen:wght@400;700&family=Source+Sans+Pro:wght@600;900&family=Space+Grotesk:wght@300;700&display=swap');
+
+/* ...............font_family............ */
+.ff_red_text {
+    font-family: 'Red Hat Text';
+}
+
+.ff_any_body {
+    font-family: 'Anybody';
+}
+
+.ff_poppins {
+    font-family: 'Poppins';
+}
+
+.ff_display {
+    font-family: 'Red Hat Display';
+}
+
+/* root */
+
+:root {
+    /* font_size */
+    --fs-90: 90px;
+    --fs-80: 80px;
+    --fs-48: 48px;
+    --fs-45: 45px;
+    --fs-30: 30px;
+    --fs-25: 25px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+
+    /* color */
+
+    --color-black: #000000;
+    --color-grey: #5A5F6A;
+    --color-white: #FFFFFF;
+    --color-green: #204945;
+    --color-lightgrey: #777E90;
+    --color-lightgreen: #C1EADD;
+    --color-darkblack: #23262F;
+
+}
+
+/* color */
+.black {
+    color: var(--color-black) !important;
+}
+
+.grey {
+    color: var(--color-grey);
+}
+
+.white {
+    color: var(--color-white) !important;
+}
+
+.green {
+    color: var(--color-green);
+}
+
+.lightgrey {
+    color: var(--color-grey);
+}
+
+.lightgreen {
+    color: var(--color-lightgreen);
+}
+
+.darkblack {
+    color: var(--color-darkblack);
+}
+
+
+/* font_size */
+
+.fs_90 {
+    font-size: var(--fs-90);
+}
+
+.fs_80 {
+    font-size: var(--fs-80);
+}
+
+
+.fs_48 {
+    font-size: var(--fs-48);
+}
+
+.fs_45 {
+    font-size: var(--fs-45);
+}
+
+.fs_30 {
+    font-size: var(--fs-30);
+}
+
+.fs_25 {
+    font-size: var(--fs-25);
+}
+
+.fs_22 {
+    font-size: var(--fs-22);
+}
+
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+.fs_18 {
+    font-size: var(--fs-18);
+}
+
+.fs_16 {
+    font-size: var(--fs-16);
+}
+
+
+/* font-weight */
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
