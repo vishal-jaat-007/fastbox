@@ -44,3 +44,5 @@ export const Admsmith = () => {
     </Container>
   )
 }
+
+export default Admsmith

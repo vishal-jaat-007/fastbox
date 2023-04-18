@@ -138,3 +138,36 @@
 .fw_400 {
     font-weight: 400;
 }
+
+@media (max-width:1200px) {
+    :root {
+        /* font_size */
+        --fs-90: 55px;
+        --fs-80: 60px;
+        --fs-48: 40px;
+        --fs-45: 38px;
+        --fs-30: 25px;
+        --fs-25: 20px;
+        --fs-22: 18px;
+        --fs-20: 17px;
+        --fs-18: 15px;
+        --fs-16: 13px;
+
+    }
+}
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-90: 30px;
+        --fs-80: 28px;
+        --fs-48: 30px;
+        --fs-45: 30px;
+        --fs-30: 20px;
+        --fs-25: 18px;
+        --fs-22: 16px;
+        --fs-20: 15px;
+        --fs-18: 14px;
+        --fs-16: 13px;
+
+    }
+}

@@ -24,3 +24,5 @@ export const Via_gps = () => {
       </Container></div>
   )
 }
+
+export default Via_gps

@@ -99,3 +99,4 @@ export const Calculate = () => {
 
     )
 }
+export default Calculate
